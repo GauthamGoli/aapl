@@ -1,2 +1,6 @@
 *.pyc
-**/migrations/**
+mysite/migrations/
+*.sqlite3
+*.idea
+greeting_app/target/
+*.iml

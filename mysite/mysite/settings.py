@@ -27,7 +27,9 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['103.37.201.214']
 
-GREETING_SERVICE_URL = os.environ['GREEING_SERVICE_ENDPOINT'] if 'GREETING_SERVICE_ENDPOINT' in os.environ else 'http://localhost:8099'
+GREETING_SERVICE_URL = os.environ['GREETING_SERVICE_ENDPOINT'] if 'GREETING_SERVICE_ENDPOINT' in os.environ else 'http://localhost:8099'
+
+GREETING_TOKEN_VALIDITY_MINUTES = 30
 
 # Application definition
 
